@@ -1,9 +1,9 @@
 # Yahtzee
 This program is to copy the board game Yahtzee. 
 The game includes the following classes:
-- "Die": Basically manages how each die rolls and the characteristics of the dice.
-- "ConsoleUI": Is the interface that the user interacts with, will make it significantly easier for the user to play.
-- "GameLogic": Basically the Yahtzee board game rules and how it works in code
+- "Die": Manages how each die rolls and the characteristics of the dice.
+- "ConsoleUI": This is the interface that the user interacts with, making it significantly easier for the user to play.
+- "GameLogic": The Yahtzee board game rules and how it works in code
 
 ## Files
 - Yahtzee.cpp: Int main
