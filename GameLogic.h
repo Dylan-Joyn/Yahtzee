@@ -10,14 +10,16 @@ using namespace std;
 class GameLogic {
 private:
     vector<Die> dice;
-    vector<int> scores;
+    vector<bool> categoriesScored;
+    int totalScore;
+
 public:
     GameLogic();
     void rollDice(const vector<bool>& reroll);
-    vector<Die> getDice() const;
+    const vector<Die>& getDice() const;
     void scoreCategory(int category);
-    int getTotalScore() const;
     bool allCategoriesScored() const;
+    int getTotalScore() const;
 };
 
 #endif
